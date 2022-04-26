@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
 body{
 
     margin: 0;
     padding: 0;
     display: block;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Audiowide', cursive;
     cursor: default;
     box-sizing: border-box;
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);;
 }
 a{
     text-decoration: none;
@@ -14,48 +17,94 @@ a{
 .container{
     margin: auto;
     max-width: 1920px;
-    height: 900px;
     display: flex;
     justify-content: center;
-    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);;
-    background: url("./img/uhdpaper.com-download-4K-6.550-@6623502234774283079.jpg");
+
     background-size: cover;
     align-items: center;
     flex-wrap: wrap;
-    animation: animate 60s infinite linear;
+}
+.block{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
 }
 .menu{
     width: 100%;
-    height: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     
 }
-.admin{
-    width: 25%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, .2);
+.card{
+    margin-top: 50px;
+    width: 240px;
+    height: 490px;
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);;
+    border: 2px solid white;
+    color: white;
+    background-size: cover;
+}
+.card__name{
+    transform: rotate(90deg);
+    font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 31px;
+letter-spacing: 0.1em;
+}
+.name{
+    font-family: 'Train One', cursive;
+    font-size: 90px;
+    transform: matrix(1, 0, 0, 1, 88, 100);
+}
+.country{
+    transform: matrix(1, 0, 0, 1, 98, 70);
+}
+.card__role{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-}
-.admin:hover{
-    background-color: rgba(255, 255, 255);
-}
-.admin__red{
-    background-color: rgba(216, 7, 17, 0.4);
-}
-.admin__red:hover{
-    background-color: rgba(216, 7, 17);
-}
-.Title{
-    font-size: 70px;
-}
-.subtitle{
-    font-size: 40px;
-}
-.bottom{
+    width: 220px;
+    height: 40px;
+    transform: matrix(1, 0, 0, 1, 98, 400);
 
+    
+    background: white;
+    border: 2px solid rgba(84,58,183,1);
+    box-sizing: border-box;
+    color: black;
+}
+.Ta1l{
+    background: url("./img/avatar.jpg");
+    background-size: cover;
+    background-position: 50%;
+    color: crimson;
+}
+.Not{
+    background: url("./img/Nikto.jpg");
+    background-size: cover;
+    /* background-position: 50%; */
+    color: black;
+}
+.Swip{
+    background: url("./img/swip.jpg");
+    background-size: cover;
+    color: goldenrod;
+
+}
+.Dward{
+    background: url("./img/dward.jpg");
+    background-size: cover;
+
+}
+.bottom{ 
+    font-family: 'Comfortaa', cursive;
+    margin-top: 100px;
     width: 100%;
     height: 300px;
     background-color: #2F3136;
