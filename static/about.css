@@ -84,7 +84,7 @@ a{
 }
 .container{
     margin: auto;
-    max-width: 1920px;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);;
@@ -103,14 +103,16 @@ a{
 
 }
 .title{
+    text-align: center;
     font-size: 40px;
     width: 900px;
     font-weight: 500;
+    padding-bottom: 30px;
 
 }
 .text{
-    width: 900px;
-    font-size: 30px;
+    max-width: 700px;
+    font-size: 20px;
 }
 .menu_cont{
     background-color: rgba(255, 255, 255, .6);
