@@ -11,6 +11,12 @@ body{
 a{
     text-decoration: none;
 }
+@media (min-width: 320px) {
+    .text{
+        min-width: 220px;
+        font-size: 20px;
+    }
+}
 .burger{
     position: fixed;
     width: 70px;

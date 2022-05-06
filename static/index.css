@@ -180,7 +180,6 @@ a{
 
 }
 .menu{
-    background-color: white;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -191,7 +190,7 @@ a{
 .block__menu{
     width: 320px;
     height: 220px;
-    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+    background-color: rgba(0,172,193,1);
     border-radius: 0px;
     display: flex;
     justify-content: center;
@@ -199,21 +198,24 @@ a{
     flex-direction: column;
 
     cursor: pointer;
-    transition: .95s;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    color: white;
+    transition: .2s;
 
     
 }
 .block__menu:hover{
-    background: linear-gradient(10deg, rgb(255, 70, 8) 0%, rgb(193, 0, 32) 100%);
+    background-color: rgb(8, 255, 90);
+    color: black;
+
 
 }
 .menu__title{
     font-size: 50px;
-    color: white;
 
 }
 .menu__subtitle{
-    color: white;
 }
 
 .bottom{
